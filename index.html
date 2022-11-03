@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>Debugging</title>
+</head>
+<body>
+  <div id="hero-section">
+    <div class="text-div" id="hero-text-div">
+      <h1 id="main-header">Escape</h1>
+      <h2 id="sub-header">Find yourself, while living under the <span id="stars">stars</span></h2>
+      <p class="call-to-action">plan your trip now! <button class="btn" id="click-here-btn">click here</button></p>
+    </div>
+    <div class="text-div invisible" id="form-div">
+      <form>
+        <label for="name">Name</label>
+        <input id="form-name" type="text" name="name">
+        <br>
+        <label for="destination">Destination</label>
+        <input id="form-destination" type="text" name="destination">
+        <br>
+        <label for="out-of-country">Traveling out of the country? (yes or no)</label>
+        <input type="text" name="out-of-country" id="form-out-of-country">
+        <p class="invisible emphasis" id="form-warning">please type yes or no</p>
+        <br>
+        <button class="btn" type="submit">Add to Future Adventures!</button>
+      </form>
+    </div>
+    <div class="text-div invisible" id="Trip-info-div">
+      <h1 class="emphasis" id="congrats-h1">Congratulations <span id="name-span"></span>!</h1>
+      <h2>you will be going to <span id="trip-destination-span"></span>!</h2>
+      <p class="emphasis invisible" id="passport-p">Don't forget your passport!</p>
+    </div>
+  </div>
+</body>

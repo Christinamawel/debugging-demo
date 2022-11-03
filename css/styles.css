@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  margin : 0;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: rgb(11, 14, 25);
+}
+
+.btn {
+  border: none;
+  border-radius: 2px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.invisible {
+  display: none;
+}
+
+#hero-section {
+  background-image: url('../img/camping-image.jpg');
+  background-size: cover;
+  background-position: 0 -100px;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flow-root;
+}
+
+.text-div {
+  background-color: rgb(11, 14, 25, .8);
+  width: 400px;
+  margin-top: 30vh;
+  margin-left: 15vw;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#main-header {
+  margin: 0;
+  font-size: 3.5rem;
+}
+
+#sub-header {
+  margin: .25em 0;
+}
+
+#stars {
+  color:rgb(255, 213, 115);
+}
+
+.call-to-action {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+#click-here-btn {
+  background-color: rgb(249, 189, 47);
+  color: black;
+}
+
+#click-here-btn:hover {
+  background-color: rgb(255, 213, 115);
+}
+
+#form-div input {
+  margin-bottom: 10px;
+}
+
+.emphasis {
+  color: rgb(255, 213, 115);
+}
